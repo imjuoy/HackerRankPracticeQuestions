@@ -1,0 +1,48 @@
+
+public class BubbleSort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int [] inputArray = {5,4,3,2,1};
+       for(int i=0; i< inputArray.length-1;i++)
+       {
+    	   for(int j=0;j< inputArray.length-i-1;j++)
+    	   {
+    		if(inputArray[j] > inputArray[j+1])
+    		{
+    			int temp = inputArray[j];
+    			inputArray[j] = inputArray[j+1];
+    			inputArray[j+1] = temp;
+    		}
+    	   }
+	}
+       for(int i=0;i< inputArray.length; i++)
+       System.out.print(inputArray[i]);
+
+}
+	
+	  // A function to implement bubble sort
+    static void bubbleSort(int arr[], int n)
+    {
+        // Base case
+        if (n == 1)
+            return;
+      
+        // One pass of bubble sort. After
+        // this pass, the largest element
+        // is moved (or bubbled) to end.
+        for (int i=0; i<n-1; i++)
+            if (arr[i] > arr[i+1])
+            {
+                // swap arr[i], arr[i+1]
+                int temp = arr[i];
+                arr[i] = arr[i+1];
+                arr[i+1] = temp;
+            }
+      
+        // Largest element is fixed,
+        // recur for remaining array
+        bubbleSort(arr, n-1);
+    }
+    
+}
