@@ -1,3 +1,15 @@
+/*This is the bubble sort algorithm. It checks every element of the array and then swaps them in place
+ * sorting is required. 
+ * Time complexity of the algorithm will depend on its implementation.
+ * If done using recursion,
+ * Time Complexity : O(n)
+ * Space complexity : O(n)
+ * 
+ * If done using two loops:
+ * Time Complexity : O(n2)
+ * Space Complexity: O(n)
+ */
+
 
 public class BubbleSort {
 
@@ -18,10 +30,16 @@ public class BubbleSort {
 	}
        for(int i=0;i< inputArray.length; i++)
        System.out.print(inputArray[i]);
+     
+       System.out.println("");
+       int [] secondInputArray = {5,4,2,1,3};
+       bubbleSort(secondInputArray,secondInputArray.length);
+       for(int i=0;i< secondInputArray.length; i++)
+           System.out.print(secondInputArray[i]);
 
 }
 	
-	  // A function to implement bubble sort
+	  // A function to implement bubble sort recursively
     static void bubbleSort(int arr[], int n)
     {
         // Base case
@@ -32,6 +50,7 @@ public class BubbleSort {
         // this pass, the largest element
         // is moved (or bubbled) to end.
         for (int i=0; i<n-1; i++)
+        {
             if (arr[i] > arr[i+1])
             {
                 // swap arr[i], arr[i+1]
@@ -44,5 +63,6 @@ public class BubbleSort {
         // recur for remaining array
         bubbleSort(arr, n-1);
     }
+   }
     
 }
