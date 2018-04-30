@@ -1,3 +1,4 @@
+package DataStructures;
 /**
  * The below program creates a dummy adjacency list from a list of vertices and edges.
  * Time Complexity 

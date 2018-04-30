@@ -1,3 +1,4 @@
+package DataStructures;
 public class DeleteFromAnyPosition {
 	 class Node {
 	     int data;

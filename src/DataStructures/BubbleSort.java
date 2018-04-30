@@ -1,3 +1,4 @@
+package DataStructures;
 /*This is the bubble sort algorithm. It checks every element of the array and then swaps them in place
  * sorting is required. 
  * Time complexity of the algorithm will depend on its implementation.
