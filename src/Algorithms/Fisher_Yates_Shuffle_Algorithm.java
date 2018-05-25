@@ -1,3 +1,7 @@
+/*This program is meant to shuffle an array.
+ * 
+ * */
+
 package Algorithms;
 
 import java.util.Arrays;

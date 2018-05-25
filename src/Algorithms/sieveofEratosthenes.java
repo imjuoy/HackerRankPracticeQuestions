@@ -1,3 +1,7 @@
+/*This program is used to find the number of prime numbers less than n.
+ * 
+ * */
+
 package Algorithms;
 
 public class sieveofEratosthenes {
