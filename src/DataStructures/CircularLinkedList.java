@@ -25,7 +25,7 @@ public class CircularLinkedList {
 
 			Node newNode = new Node(val);
 			head = newNode;
-			// newNode.next = head;
+			newNode.next = head;
 			// System.out.println(head.next);
 		}
 		// Otherwise if the current list is not null
