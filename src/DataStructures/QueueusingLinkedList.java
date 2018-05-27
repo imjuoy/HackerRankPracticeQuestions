@@ -47,7 +47,7 @@ public class QueueusingLinkedList {
 		a.enQueue(5);
 		a.enQueue(6);
 
-		Node returnedNode1 = a.deQueue();
+		// Node returnedNode1 = a.deQueue();
 		Node returnedNode2 = a.deQueue();
 		System.out.println(returnedNode2.data);
 
