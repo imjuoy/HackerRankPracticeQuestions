@@ -5,12 +5,12 @@ package DataStructures;
  * 
  */
 
-public class LinkedList {
+public class LinkedListImplementation {
 
 	protected Node head;
 	public int size;
 
-	public LinkedList() {
+	public LinkedListImplementation() {
 		head = null;
 		size = 0;
 	}
@@ -121,7 +121,7 @@ public class LinkedList {
 	}
 
 	public static void main(String[] args) {
-		LinkedList newList = new LinkedList();
+		LinkedListImplementation newList = new LinkedListImplementation();
 		newList.add(3);
 		newList.add(4);
 		System.out.println(newList.size);
