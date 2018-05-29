@@ -35,6 +35,8 @@ public class PreOrderTravel {
 		a.root = a.new Node(1);
 		a.root.left = a.new Node(3);
 		a.root.right = a.new Node(4);
+		a.root.right.left = a.new Node(7);
+		a.root.right.right = a.new Node(8);
 		a.root.left.left = a.new Node(5);
 		a.root.left.right = a.new Node(6);
 
