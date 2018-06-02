@@ -15,7 +15,7 @@ public class PreOrderTravel {
 
 	Node root;
 
-	private void PreOrderTravel() {
+	public PreOrderTravel() {
 		// TODO Auto-generated method stub
 		root = null;
 	}
