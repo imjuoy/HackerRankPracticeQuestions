@@ -10,7 +10,7 @@ public class ProductofArrayExceptSelf {
 		int[] nums = { 1, 2, 3, 4 };
 		int[] result = new int[nums.length];
 		for (int i = 0, temp = 1; i < nums.length; i++) {
-			System.out.println(temp);
+			// System.out.println(temp);
 			result[i] = temp;
 			temp = temp * nums[i];
 		}
