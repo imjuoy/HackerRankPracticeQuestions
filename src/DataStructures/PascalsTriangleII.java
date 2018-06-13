@@ -15,9 +15,7 @@ public class PascalsTriangleII {
 				result.set(j, result.get(j) + result.get(j + 1));
 			}
 		}
-
 		System.out.println(result.toString());
-
 	}
 
 }
