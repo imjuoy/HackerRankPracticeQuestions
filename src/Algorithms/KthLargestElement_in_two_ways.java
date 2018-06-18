@@ -32,7 +32,6 @@ public class KthLargestElement_in_two_ways {
 		}
 
 		return queue.peek();
-
 	}
 
 	public static int KthLargestElementUsingArrays(int[] nums, int k) {
