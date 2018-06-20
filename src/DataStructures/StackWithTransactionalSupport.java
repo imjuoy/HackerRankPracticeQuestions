@@ -46,11 +46,11 @@ import java.util.Stack;
 
 public class StackWithTransactionalSupport {
 
-	private Stack<Integer> data;
+	// private Stack<Integer> data;
 	private Stack<Stack<Integer>> transaction;
 
 	public StackWithTransactionalSupport() {
-		data = new Stack<Integer>();
+		// data = new Stack<Integer>();
 		transaction = new Stack<Stack<Integer>>();
 	}
 
