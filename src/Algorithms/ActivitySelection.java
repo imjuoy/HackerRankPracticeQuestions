@@ -2,6 +2,7 @@
  * Activity Selection Algorithm
  * When Input is sorted - O(n)
  * When input is not sorted as per finishing time - O(nlogn)
+ * Changing the codee to check if the git config has been set up properly or not.
  */
 
 package Algorithms;
