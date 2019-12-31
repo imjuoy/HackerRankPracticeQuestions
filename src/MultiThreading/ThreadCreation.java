@@ -14,7 +14,7 @@ class MultiThreadingUsingThread extends Thread {
 	public void run() {
 		// Displaying the name of the current thread that is running.
 		try {
-			System.out.print("The current thread that is running is ::" + Thread.currentThread().getName());
+			System.out.println("The current thread that is running is ::" + Thread.currentThread().getName());
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
@@ -23,7 +23,7 @@ class MultiThreadingUsingThread extends Thread {
 
 public class ThreadCreation {
 
-	public static void main() {
+	public static void main(String[] args) {
 		int i;
 		// The below number depicts the number of threads that will be created. In this
 		// case, we can see that number is 9.

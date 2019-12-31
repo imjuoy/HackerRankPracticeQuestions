@@ -12,7 +12,7 @@ class DefineThread implements Runnable {
 
 public class ThreadCreationUsingRunnable {
 
-	public static void main() {
+	public static void main(String[] args) {
 		int i;
 		for (i = 0; i <= 8; i++) {
 			Thread th = new Thread(new DefineThread());
