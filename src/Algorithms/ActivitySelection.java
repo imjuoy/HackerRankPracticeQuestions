@@ -2,7 +2,7 @@
  * Activity Selection Algorithm
  * When Input is sorted - O(n)
  * When input is not sorted as per finishing time - O(nlogn)
- * Changing the codee to check if the git config has been set up properly or not.
+ * Changing the code to check if the git config has been set up properly or not.
  */
 
 package Algorithms;
@@ -16,7 +16,7 @@ public class ActivitySelection {
 		System.out.println(i + " ");
 		for (int j = 1; j < n; j++) {
 			if (endtime[i] <= starttime[j]) {
-				System.out.println(j + " ");
+				System.out.println(j + "  ");
 				i = j;
 			}
 		}
