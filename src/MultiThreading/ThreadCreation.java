@@ -25,8 +25,7 @@ public class ThreadCreation {
 
 	public static void main(String[] args) {
 		int i;
-		// The below number depicts the number of threads that will be created. In this
-		// case, we can see that number is 9.
+		// The below number depicts the number of threads that will be created. In this case, we can see that number is 9.
 		for (i = 0; i <= 8; i++) {
 			MultiThreadingUsingThread m = new MultiThreadingUsingThread();
 			m.start();
